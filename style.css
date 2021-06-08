@@ -4,6 +4,24 @@ button{
     font-weight: 800;
 font-size: larger;
 font-family: fantasy;
-margin-left: 42%;
+margin-left: 12%;
 
+}
+#instructions{
+    height: 300px;
+    width: 300px;
+    /* background-color: white; */
+    margin-top: -500px;
+    color: rgb(189, 177, 177);
+    font-weight: 800;
+    font-size: 20px;
+}
+ul>li{
+    margin-top: 4px;
+}
+P{
+    
+    color: rgb(189, 177, 177);
+    font-weight: 800;
+    font-size: 20px;
 }
