@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css">
 <style>
+    
 canvas {
     border:1px solid #d3d3d3;
  background-color: #d6cdcd;
@@ -13,15 +15,12 @@ canvas {
 }
 </style>
 </head>
-<header>
-    <P>HOW LONG CAN YOU LIVE?</P>
-</header>
-<body onkeyup="accelerate(-0.2)" onkeydown="accelerate(0.05)" onload="startGame()" style="background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%)">
-    <p>How long can you stay alive?</p>
-<!-- <button onclick="startGame()">startGame</button> -->
+
+<body onload="startGame()" style="background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%)">
+   
 
 <br>
-<button style="margin-left: 50%;" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">___UP___</button>
+<button  onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">___UP___</button>
 
 
 </body>
